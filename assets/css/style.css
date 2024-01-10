@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.central {
+    width: 100%;
+    position: relative;
+}
+
+.central .image {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.central .image:nth-child(1){
+    background-image: url(../img/10.png);
+  
+}
+
+.central .image:nth-child(2){
+    background-image: url(../img/5.png);
+
+  
+}
+
+.central .image:nth-child(3){
+    background-image: url(../img/2.png);
+
+}
+
+.central .image:nth-child(4){
+    background-image: url(../img/1.png);
+
+}
+
+.central .image:nth-child(5){
+    background-image: url(../img/6.png);
+
+}
+
+.central .image:nth-child(6){
+    background-image: url(../img/8.png);
+
+}
+
+.central .image:nth-child(7){
+    background-image: url(../img/7.png);
+
+}
+
+.central .image:nth-child(8){
+    background-image: url(../img/3.png);
+
+}
+
+.nombre {
+    position: absolute;
+    text-align: right !important;
+    right: 60px;
+    color: #212121;
+    text-decoration: none !important;
+}
+
+a:link, a:visited, a:hover{
+	text-decoration: none !important;
+	color: #212121 !important;
+  }  
+
+.titulo {
+    position:absolute;
+    top: 0; bottom: 250px; left: 0; right: 0;
+    margin: auto;
+    height: 20px;
+    vertical-align: middle;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: calc(1.5rem + 1.0vw) !important;
+}
+
+
+.subtitulo {
+    position:absolute;
+    top: 0; bottom: 100px; left: 0; right: 0;
+    margin: auto;
+    height: 20px;
+    vertical-align: middle;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: calc(0.9rem + 0.8vw) !important;
+
+}
+
+.subtitulo2 {
+    position:absolute;
+    top: 0; bottom: -50px; left: 0; right: 0;
+    margin: auto;
+    height: 20px;
+    vertical-align: middle;
+    font-family: 'Work Sans';
+    font-weight: 100;
+    font-style: italic;
+    font-size: calc(0.7rem + 0.7vw) !important;
+
+}
+
+.parrafo {
+    padding-top: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(0%);
+    font-family: 'Archivo', sans-serif;
+    background-color: white;
+    font-size: calc(0.8rem + 0.5vw) !important;
+    width: 350px;
+    float:right;
+    font-family: 'Archivo';
+    color: #3c3c3c !important;
+
+
+}
